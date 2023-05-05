@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import GalleryList from "../components/GalleryList";
+
 export default function Home() {
   return (
     <div>
