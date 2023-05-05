@@ -32,6 +32,7 @@ export default function GalleryList() {
               <td>{object.title}</td>
               <td>{object.totalImages}</td>
               <td>
+                <td>hello world</td>
                 <Link to="/edit">
                   <i className="fa fa-pencil" aria-hidden="true"></i>
                 </Link>
