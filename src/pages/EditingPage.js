@@ -2,6 +2,7 @@ import Edit from "../components/Edit";
 import { Link } from "react-router-dom";
 
 export default function EditingPage() {
+  
   return (
     <>
       <div className="wrapper">

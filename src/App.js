@@ -1,15 +1,20 @@
 import "./styles/Style.css";
 
-import Router from "./Routes/Router";
-import { BrowserRouter, Switch } from "react-router-dom";
+// import Router from "./Routes/Router";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import EditingPage from "./pages/EditingPage";
+import AddImage from "./components/AddImage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Switch>
-          <Router />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/edit" element={<EditingPage />} />
+          <Route path="/addImage" element={<AddImage />} />
+        </Routes>
       </BrowserRouter>
     </>
   );
